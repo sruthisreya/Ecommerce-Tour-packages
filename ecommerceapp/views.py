@@ -71,6 +71,7 @@ class BookingpackagecreateView(APIView):
                     f"Package: {booking.package.name}\n"
                     f"Number of People: {booking.no_ofpeople}\n"
                     f"Travel Date: {booking.travel_date}\n"
+                    f"travel time":{booking.travel_time}
                     f"Booking Date: {booking.book_date}"
 
                 ),
